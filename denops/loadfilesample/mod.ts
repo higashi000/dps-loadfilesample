@@ -14,7 +14,7 @@ start(async (vim) => {
     })
 
     await vim.load(new URL('script/keymap.vim', import.meta.url));
-    // await vim.load(new URL('https://github.com/higashi000/dps-loadfilesample-remotefile/blob/master/hello.vim', import.meta.url));
+    await vim.load(new URL('https://raw.githubusercontent.com/higashi000/dps-loadfilesample-remotefile/master/hello.vim', import.meta.url));
 
     console.log('dps-fileloadsample has loaded');
 })
