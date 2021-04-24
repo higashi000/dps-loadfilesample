@@ -1,4 +1,4 @@
-import { start } from "https://github.com/higashi000/denops-std-deno/raw/load-scriptfile/mod.ts"
+import { start } from "https://github.com/vim-denops/denops-std-deno/raw/load-scriptfile/mod.ts";
 
 start(async (vim) => {
     vim.register({
